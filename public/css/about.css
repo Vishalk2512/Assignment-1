@@ -1,0 +1,52 @@
+.about-hero {
+    padding: 5em 1em;
+    background-image: url("../assets/6447601.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.heading {
+    margin: auto !important;
+    font-size: 3rem !important;
+    border-bottom: 4px solid white;
+    width: max-content;
+    color: white;
+}
+.skill {
+    background-color: black;
+    background-image: url("../assets/about-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3em 0 6em;
+    border-bottom: 30px solid black;
+}
+
+.skill-list {
+    margin-top: 5em;
+    width: max-content;
+    margin-inline: auto;
+}
+.progress {
+    height: 15px !important;
+    border-radius: 0.2rem !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    flex: 1;
+    align-self: center !important;
+}
+
+.progress-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5em;
+    margin-top: 1.5em;
+}
+
+img {
+    display: block;
+}

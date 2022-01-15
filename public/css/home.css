@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap");
+
+body {
+    background: url("../assets/home-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 60px solid rgb(0, 0, 0, 0.9);
+    overflow: hidden;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 6.5rem;
+    text-align: center;
+    line-height: 4rem;
+    letter-spacing: 0.5rem;
+    font-family: "Poppins", sans-serif;
+}
+span {
+    display: block;
+}
+.left {
+    transform: translateX(-100px);
+    animation: left 0.8s linear forwards;
+    border-bottom: 4px solid rgba(38, 149, 206);
+    opacity: 0;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+}
+.middle {
+    scale: 0;
+    animation: middle 0.8s ease-in forwards;
+    opacity: 0;
+    color: rgba(79, 240, 200, 0.7);
+}
+.right {
+    transform: translateX(100px);
+    animation: right 0.8s linear forwards;
+    opacity: 0;
+    padding-bottom: 1rem;
+    border-bottom: 4px solid rgba(79, 240, 200);
+    border-radius: 2rem;
+}
+@keyframes left {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(-100px);
+        opacity: 1;
+    }
+}
+@keyframes right {
+    0% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(100px);
+        opacity: 1;
+    }
+}
+
+@keyframes middle {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+    80% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1150px) {
+    .hero h1 {
+        font-size: 5rem;
+        line-height: 3rem;
+        letter-spacing: 0.4rem;
+    }
+}
+
+@media (max-width: 920px) {
+    .hero h1 {
+        font-size: 4rem;
+        line-height: 2.5rem;
+        letter-spacing: 0.4rem;
+    }
+}
+
+@media (max-width: 775px) {
+    .hero h1 {
+        font-size: 2.5rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.4rem;
+    }
+}
+
+@media (max-width: 605px) {
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 4rem;
+        letter-spacing: 0.4rem;
+    }
+    span {
+        display: inline;
+    }
+    .middle {
+        font-size: 3rem;
+    }
+}
+
+.html,
+.css,
+.javascript,
+.react,
+.angular,
+.php {
+    width: 60px;
+    opacity: 1;
+    left: 5%;
+    top: 15%;
+    position: absolute;
+    animation: updown 3s linear infinite;
+}
+.css {
+    top: 20%;
+    left: 80%;
+}
+.javascript {
+    top: 55%;
+    left: 35%;
+    width: 60px;
+}
+.react {
+    top: 65%;
+    left: 70%;
+}
+.angular {
+    left: 10%;
+    top: 80%;
+}
+.php {
+    left: 90%;
+    top: 80%;
+    width: 70px;
+}
+@keyframes updown {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(8px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.profile {
+    background-color: white;
+    padding: 7em 0;
+}
+
+.myProfile {
+    max-width: 300px;
+    width: 100%;
+    border: 3px solid black;
+    border-radius: 0.8rem;
+    mix-blend-mode: luminosity;
+}
+
+.profile h2 {
+    color: black;
+    letter-spacing: 0.1rem;
+    font-size: 2.2em;
+    font-family: "PT Serif", serif;
+    margin-bottom: 1em;
+}
+.profile h2 span {
+    color: #286569;
+    display: inline;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.introText {
+    margin-bottom: 3em;
+    font-size: 1.2em;
+}
+
+.resume {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 0.3rem;
+    transition: all 0.3s linear;
+}
+
+.resume:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width: 1200px) {
+    .profile h2 {
+        font-size: 1.8em;
+    }
+}
+@media (max-width: 1020px) {
+    .flex {
+        flex-direction: column;
+    }
+}

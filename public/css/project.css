@@ -1,0 +1,179 @@
+body {
+    background: #ada996; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+        to right,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #ada996
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+        to right,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #ada996
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.project {
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+h1 {
+    margin: 1em auto 1.5em !important;
+    font-size: 3rem !important;
+    border-bottom: 4px solid gray;
+    width: max-content;
+}
+.card {
+    max-width: 315px;
+    border-radius: 0.5rem !important;
+}
+.card .btn {
+    background-image: linear-gradient(
+        to right,
+        #314755 0%,
+        #26a0da 51%,
+        #314755 100%
+    );
+}
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+    /* flex-wrap: wrap; */
+}
+.btn {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s !important;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: inlie-block;
+}
+.btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-1 {
+    border-top: 3px solid #26a0da !important;
+}
+
+.card-2 {
+    border-top: 3px solid #ff6e7f !important;
+}
+.card-2 .btn {
+    background-image: linear-gradient(
+        to right,
+        #ff6e7f 0%,
+        #bfe9ff 51%,
+        #ff6e7f 100%
+    );
+}
+
+.card-3 {
+    border-top: 3px solid #9733ee !important;
+}
+
+.card-3 .btn {
+    background-image: linear-gradient(
+        to right,
+        #da22ff 0%,
+        #9733ee 51%,
+        #da22ff 100%
+    );
+}
+
+.card-4 {
+    border-top: 3px solid #f09819 !important;
+}
+
+.card-4 .btn {
+    background-image: linear-gradient(
+        to right,
+        #f09819 0%,
+        #edde5d 51%,
+        #f09819 100%
+    );
+}
+
+.card-5 {
+    border-top: 3px solid #1cd8d2 !important;
+}
+
+.card-5 .btn {
+    background-image: linear-gradient(
+        to right,
+        #1cd8d2 0%,
+        #93edc7 51%,
+        #1cd8d2 100%
+    );
+}
+
+.card-6 {
+    border-top: 3px solid #16222a !important;
+}
+
+.card-6 .btn {
+    background-image: linear-gradient(
+        to right,
+        #16222a 0%,
+        #3a6073 51%,
+        #16222a 100%
+    );
+}
+
+.card-7 {
+    border-top: 3px solid #71b280 !important;
+}
+
+.card-7 .btn {
+    background-image: linear-gradient(
+        to right,
+        #134e5e 0%,
+        #71b280 51%,
+        #134e5e 100%
+    );
+}
+
+.card-8 {
+    border-top: 3px solid #fc354c !important;
+}
+.card-8 .btn {
+    background-image: linear-gradient(
+        to right,
+        #fc354c 0%,
+        #0abfbc 51%,
+        #fc354c 100%
+    );
+}
+.card-9 {
+    border-top: 3px solid #20002c !important;
+}
+.card-9 .btn {
+    background-image: linear-gradient(
+        to right,
+        #20002c 0%,
+        #cbb4d4 51%,
+        #20002c 100%
+    );
+}
