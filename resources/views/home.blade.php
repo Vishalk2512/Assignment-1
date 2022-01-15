@@ -7,7 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<link rel="shortcut icon" href="{{ asset('assets/icon.ico') }}" type="image/x-icon">
 		<title>Home | Vishal Vansjariya</title>
-		<link rel="stylesheet" href="{{ asset('css/home.css') }}">
+		<link rel="stylesheet" href="css/home.css">
 </head>
 
 <body>
