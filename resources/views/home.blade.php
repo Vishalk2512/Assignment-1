@@ -19,8 +19,8 @@
 								<img class="html" src="assets/html.png" alt="html">
 								<img class="css" src="assets/css.png" alt="css">
 								<img class="javascript" src="assets/javascript.png" alt="javascript">
-								<img class="react" src="assets/react.png'" alt="react">
-								<img class="angular" src="assets/angular.png" alt="angular">
+								<img class="react" src="assets/react.png" alt="react">
+								<img class="angular" src="assets/Angular.png" alt="angular">
 								<img class="php" src="assets/php.png" alt="php">
 								<h1>
 										<span class="left">Web Designer</span><br>
