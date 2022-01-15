@@ -5,9 +5,9 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="shortcut icon" href="{{ asset('assets/icon.ico') }}" type="image/x-icon">
+		<link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon">
 		<title>About Me | Vishal Vansjariya</title>
-		<link rel="stylesheet" href="{{ asset('css/about.css') }}">
+		<link rel="stylesheet" href="css/about.css">
 </head>
 
 <body>
@@ -20,44 +20,44 @@
 								<div class="container">
 										<div class="skill-list w-75">
 												<div class="progress-1">
-														<img src="{{ asset('assets/html.png') }}" alt="" width="50px">
+														<img src="assets/html.png" alt="" width="50px">
 														<div class="progress">
 																<div class="progress-bar bg-success" role="progressbar" style="width: 90%; background-color: #FAD961;
-																																										background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%);
-																																										" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+																																																				background-image: linear-gradient(270deg, #FAD961 0%, #F76B1C 100%);
+																																																				" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 														</div>
 												</div>
 												<div class="progress-1">
-														<img src="{{ asset('assets/css.png') }}" alt="" width="50px">
+														<img src="assets/css.png" alt="" width="50px">
 														<div class="progress">
 																<div class="progress-bar bg-info" role="progressbar" style="width: 80%; background-color: #74EBD5;
-																																								background-image: linear-gradient(270deg, #74EBD5 0%, #9FACE6 100%);
-																																								" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+																																																		background-image: linear-gradient(270deg, #74EBD5 0%, #9FACE6 100%);
+																																																		" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 														</div>
 												</div>
 												<div class="progress-1">
-														<img src="{{ asset('assets/javascript.png') }}" alt="" width="50px">
+														<img src="assets/javascript.png" alt="" width="50px">
 														<div class="progress">
 																<div class="progress-bar bg-warning" role="progressbar" style="width: 60%; background-color: #eeb37b;
-																																						background-image: linear-gradient(270deg, #eeb37b 25%, #FFE32C 100%);
-																																						" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+																																																background-image: linear-gradient(270deg, #eeb37b 25%, #FFE32C 100%);
+																																																" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 														</div>
 												</div>
 
 												<div class="progress-1">
-														<img src="{{ asset('assets/react.png') }}" alt="" width="50px">
+														<img src="assets/react.png" alt="" width="50px">
 														<div class="progress">
 																<div class="progress-bar bg-danger" role="progressbar" style="width: 40%; background-color: #21D4FD;
-																																				background-image: linear-gradient(90deg, #21D4FD 0%, #B721FF 100%);
-																																				" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+																																														background-image: linear-gradient(90deg, #21D4FD 0%, #B721FF 100%);
+																																														" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
 														</div>
 												</div>
 												<div class="progress-1">
-														<img src="{{ asset('assets/php.png') }}" alt="" width="50px">
+														<img src="assets/php.png" alt="" width="50px">
 														<div class="progress">
 																<div class="progress-bar bg-warning" role="progressbar" style="width: 80%; background-color:#6181b6;
-																																background-image: linear-gradient(90deg, #6181b6,#1d2837 100%);" aria-valuenow="80"
-																		aria-valuemin="0" aria-valuemax="100"></div>
+																																										background-image: linear-gradient(90deg, #6181b6,#1d2837 100%);"
+																		aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
 														</div>
 												</div>
 										</div>
@@ -71,33 +71,33 @@
 												<div class="carousel-inner">
 														<!-- Single item -->
 														<div class="carousel-item active">
-																<img src="{{ asset('assets/card-1.jpg') }}" class="d-block w-100" alt="card-1" />
+																<img src="assets/card-1.jpg" class="d-block w-100" alt="card-1" />
 														</div>
 														<!-- Single item -->
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-2.jpg') }}" class="d-block w-100" alt="card-2" />
+																<img src="assets/card-2.jpg" class="d-block w-100" alt="card-2" />
 														</div>
 														<!-- Single item -->
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-3.jpg') }}" class="d-block w-100" alt="card-3" />
+																<img src="assets/card-3.jpg" class="d-block w-100" alt="card-3" />
 														</div>
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-4.jpg') }}" class="d-block w-100" alt="card-4" />
+																<img src="assets/card-4.jpg" class="d-block w-100" alt="card-4" />
 														</div>
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-5.jpg') }}" class="d-block w-100" alt="card-5" />
+																<img src="assets/card-5.jpg" class="d-block w-100" alt="card-5" />
 														</div>
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-6.jpg') }}" class="d-block w-100" alt="card-6" />
+																<img src="assets/card-6.jpg" class="d-block w-100" alt="card-6" />
 														</div>
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-7.jpg') }}" class="d-block w-100" alt="card-7" />
+																<img src="assets/card-7.jpg" class="d-block w-100" alt="card-7" />
 														</div>
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-8.jpg') }}" class="d-block w-100" alt="card-8" />
+																<img src="assets/card-8.jpg" class="d-block w-100" alt="card-8" />
 														</div>
 														<div class="carousel-item">
-																<img src="{{ asset('assets/card-9.jpg') }}" class="d-block w-100" alt="card-9" />
+																<img src="assets/card-9.jpg" class="d-block w-100" alt="card-9" />
 														</div>
 												</div>
 												<button class="carousel-control-prev" type="button" data-mdb-target="#carouselDarkVariant"

@@ -5,9 +5,9 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="shortcut icon" href="{{ asset('assets/icon.ico') }}" type="image/x-icon">
+		<link rel="shortcut icon" href="assets/icon.ico" type="image/x-icon">
 		<title>Project | Vishal Vansjariya</title>
-		<link rel="stylesheet" href="{{ asset('css/project.css') }}">
+		<link rel="stylesheet" href="css/project.css">
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 										<div class="project">
 												<div class="card card-1">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-1.jpg') }}" class="img-fluid" />
+																<img src="assets/card-1.jpg" class="img-fluid" />
 																<a href="https://clipboard-landing-page-five-ashy.vercel.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -38,7 +38,7 @@
 												</div>
 												<div class="card card-2">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-2.jpg') }}" class="img-fluid" />
+																<img src="assets/card-2.jpg" class="img-fluid" />
 																<a href="https://naughty-lalande-ecc1f9.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -56,7 +56,7 @@
 												</div>
 												<div class="card card-3">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-3.jpg') }}" class="img-fluid" />
+																<img src="assets/card-3.jpg" class="img-fluid" />
 																<a href="https://wonderful-bohr-4cffd7.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -74,7 +74,7 @@
 												</div>
 												<div class="card card-4">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-4.jpg') }}" class="img-fluid" />
+																<img src="assets/card-4.jpg" class="img-fluid" />
 																<a href="https://kind-kirch-8e42a7.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -92,7 +92,7 @@
 												</div>
 												<div class="card card-5">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-5.jpg') }}" class="img-fluid" />
+																<img src="assets/card-5.jpg" class="img-fluid" />
 																<a href="https://elated-blackwell-37fb8a.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -110,7 +110,7 @@
 												</div>
 												<div class="card card-6">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-6.jpg') }}" class="img-fluid" />
+																<img src="assets/card-6.jpg" class="img-fluid" />
 																<a href="https://frosty-kowalevski-3e0bf4.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -129,7 +129,7 @@
 												</div>
 												<div class="card card-7">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-7.jpg') }}" class="img-fluid" />
+																<img src="assets/card-7.jpg" class="img-fluid" />
 																<a href="https://wizardly-meitner-422ffe.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -148,7 +148,7 @@
 												</div>
 												<div class="card card-8">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-8.jpg') }}" class="img-fluid" />
+																<img src="assets/card-8.jpg" class="img-fluid" />
 																<a href="https://kind-lewin-407705.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>
@@ -167,7 +167,7 @@
 												</div>
 												<div class="card card-9">
 														<div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
-																<img src="{{ asset('assets/card-9.jpg') }}" class="img-fluid" />
+																<img src="assets/card-9.jpg" class="img-fluid" />
 																<a href="https://eloquent-lamarr-7dfcbe.netlify.app/" target="_blank">
 																		<div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
 																</a>

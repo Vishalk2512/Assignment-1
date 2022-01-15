@@ -5,13 +5,13 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
-		<link rel="stylesheet" href="{{ asset('css/main.css') }}">
+		<link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
 		<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
 				<div class="container">
-						<a class="navbar-brand" href="/"><img src="{{ asset('assets/logo.svg') }}" alt="Logo"></a>
+						<a class="navbar-brand" href="/"><img src="assets/logo.svg" alt="Logo"></a>
 						<button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarNav"
 								aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 								<i class="fas fa-bars"></i>
